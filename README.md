@@ -1,9 +1,13 @@
 This project is still in the works. I pretty much only have the idea finished
+# Backstory
+I am in the middle of a possibly endless project I call "~/coolRoom" where I create as many smart home devices to create a college dorm that has never been experienced by mankind. I want this project to be able to take the vibe of the room and flip it on its head in a second. I already have a variety of devices that I will set up to work with the datum.
 
 # Datum
 The Datum is a project that takes input from a controller and uses arduino to write bytes to the serial out port. This output can be read by a device by the serial in pin and have a set function when it recieves a certain byte.
 
 The idea for this project is to have one Serial wire and one ground wire around the perimiter of the room and connect devices that can interpret the signal. I designed it to look like a military machine since it is in charge of everything in the room and it will sit stationary on a desk. 
+
+I will use two microcontrollers for this project. One will act as a keyboard and send keystroke signals through Serial to the other microcontroller which will control the lcd screen and send the final serial signals through the whole room.
 
 # Design
 The Datum has one large joystick from microcenter to the left of a 3x3 button array to the left of one big button all on the top panel. On the bottom panel, there is a 4x3 led array, One large potentiometer only to control the lcd brightness, Then four switches and the lcd on the bottom. The lcd also has five menu buttons above it.
