@@ -1,19 +1,18 @@
-[Watch The Video Tutorial](https://drive.google.com/file/d/1q8wW7tiSs-QX5U77vw8-VzYiKtA6Mmot/view?usp=sharing)
-# Backstory
-I am in the middle of a possibly endless project I call "~/coolRoom" where I create as many smart home devices to create a college dorm that has never been experienced by mankind. I want this project to be able to take the vibe of the room and flip it on its head in a second. I already have a variety of devices that I will set up to work with the datum.
-
-# Datum
-The Datum is a project that will act as a controller for the room although it will remain stationary and output serial bytes that can be read from other devices, from a serial cable running along the perimiter of the room. The Datum will also have a wireless module (Currently thiniking radio or BT) that can connect to a controller which is not made but will be a smaller, handheld device.
-
-The idea for this project is to have one Serial wire and one ground wire around the perimiter of the room and connect devices that can interpret the signal. I designed it to look like a military machine since it is in charge of everything in the room and it will sit stationary on a desk. 
-
-I will use two microcontrollers for this project. One will act as a keyboard and send keystroke signals through Serial to the other microcontroller which will control the lcd screen and leds and send the final serial signals through the whole room.
+<div align="center">
+  <h1>Datum</H1>
+  <img src = "https://github.com/gdegidy/coolRoom/blob/main/Images/GithubImages/Datum.png" style="width: 60%;"><br>
+  <a href = "https://drive.google.com/file/d/1q8wW7tiSs-QX5U77vw8-VzYiKtA6Mmot/view?usp=sharing">Watch the Video Tutorial</a>
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;The datum will act as a stationary way to control all of the devices in the room. It will have a serial cable coming out from the side, running around the perimiter of the dorm room. Devices that can read these serial codes coming from the datum will connect to the serial line and react when it hears a command it was programmed to hear.
+<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;The Datum is made from two arduino megas. The first mega has all of the buttons and switches hooked into the gpio pins and is programmed to send out bytes corresponding to the button presses sent through serial, into the second arduino mega. The second mega is connected to the lcd screen and interprets a button press from arduino mega 1. Arduino mega 2 is also responsible for the final serial output that will run along the perimeter of the room. All of the bytes from the keyboard and menu are available in the excel document.
 
 # Design
-The Datum has one large joystick from microcenter to the left of a 3x3 button array to the left of one big button all on the top panel. On the bottom panel, there is a 4x3 led array, Then four switches and the lcd on the bottom. The lcd also has five menu buttons below it.
+&nbsp;&nbsp;&nbsp;&nbsp;The Datum has one large joystick from microcenter to the left of a 3x3 button array to the left of one big button all on the top panel. On the bottom panel, there is a 4x3 led array, Then four switches and the lcd on the bottom. The lcd also has five menu buttons below it.
 
 # Hotkeys and Memory Usage
-While the datum is at idle, any button except for the big button and menu buttons can be programmed to send a certain code through serial. The big button will be responsible for a series of signals sent that will cause the most chaos and anxiety in the room as fast as possible because my roommate and I think it would be funny. The EEPROM Adresses and Serial output bytes can be seen on the excel document.
+&nbsp;&nbsp;&nbsp;&nbsp;While the datum is at idle, any button except for the big button and menu buttons can be programmed to send a certain code through serial. The big button will be responsible for a series of signals sent that will cause the most chaos and anxiety in the room as fast as possible because my roommate and I think it would be funny. The EEPROM Adresses and Serial output bytes can be seen on the excel document.
 
 # Menus
 The "First Layer" Menu:
