@@ -33,4 +33,4 @@ gbgbgbgb...
 
 # Setup
 I'm using an ESP-01 to control the pixels through a Arduino IoT Cloud. I have 5v going to the pixels and a 5v-3.3v
-buck converter which powers the chip which sends data to the pixels. I set it up so I can set the color and brightness from the cloud. The pixels have an animation of 5 off pixels jump one to the right once every second.
+buck converter which powers the chip which sends data to the pixels.
