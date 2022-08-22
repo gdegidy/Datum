@@ -1,4 +1,4 @@
-This project is still in the works. I pretty much only have the idea finished
+[Watch The Video Tutorial](https://drive.google.com/file/d/1q8wW7tiSs-QX5U77vw8-VzYiKtA6Mmot/view?usp=sharing)
 # Backstory
 I am in the middle of a possibly endless project I call "~/coolRoom" where I create as many smart home devices to create a college dorm that has never been experienced by mankind. I want this project to be able to take the vibe of the room and flip it on its head in a second. I already have a variety of devices that I will set up to work with the datum.
 
