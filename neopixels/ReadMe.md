@@ -1,6 +1,10 @@
-<p align="center"><img src="https://github.com/gdegidy/coolRoom/blob/main/Images/TVHeadOn.png" height=500>
+<h1 align="center">Neopixels</h1>
 <br>
-Neopixels shown above TV along the ceiling</p>
+<p align="center">
+  <img src="https://github.com/gdegidy/coolRoom/blob/main/Images/TVHeadOn.png" height=500>
+  <br>
+  Neopixels shown above TV along the ceiling
+</p>
 
 # Backstory
 I am working on a long term project which tries to create the ultimate vibe in a dorm room. This was one of the first projects and NO! I'm not happy about just using a strip of lights but I treat it as a "base coat of paint" for the room.
