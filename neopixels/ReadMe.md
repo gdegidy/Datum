@@ -6,9 +6,16 @@
   Neopixels shown above TV along the ceiling
 </p>
 
-# Backstory
-I am working on a long term project which tries to create the ultimate vibe in a dorm room. This was one of the first projects and NO! I'm not happy about just using a strip of lights but I treat it as a "base coat of paint" for the room.
-This is just a basic strip of 200 neopixels that alternates colors. Here's what I mean:
+The neopixels are just a strip of 200 WS2812B Neopixels controlled by Arduino IoT Cloud. These pixels are pretty basic but every time you set a color, it sets every other pixel to that color, so you can get cool lighting effects or really vibrant light if the two colors are slightly different. 
+
+# Setup
+I'm using an ESP-01 in a 3d printed housing to control the pixels through Arduino IoT Cloud. I have 5v going to the pixels and a 5v-3.3v
+buck converter which powers the chip which sends data to the pixels.
+
+<p align="center"><img src="https://github.com/gdegidy/coolRoom/blob/main/Images/GithubImages/BetterVoltageSetup.png" width=300></p>
+
+## Usage:
+
 #### ex 1:
 "Set the color to red", "Set the color to green"
 <br>
@@ -40,9 +47,3 @@ gbgbgbgb...
 "Turn the pixels off"
 
 00000000...
-
-# Setup
-I'm using an ESP-01 in a 3d printed housing to control the pixels through a Arduino IoT Cloud. I have 5v going to the pixels and a 5v-3.3v
-buck converter which powers the chip which sends data to the pixels.
-
-<p align="center"><img src="https://github.com/gdegidy/coolRoom/blob/main/Images/GithubImages/BetterVoltageSetup.png" width=300></p>
