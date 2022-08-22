@@ -1,4 +1,9 @@
-# ~/coolRoom
+<H1 align="center">~/coolRoom</H1>
+<p align="center">
+  <img src="https://github.com/gdegidy/coolRoom/blob/main/Images/DarkLookingIn.png" height=200>
+  <img src="https://github.com/gdegidy/coolRoom/blob/main/Images/FireTvBg.png" height=200>
+  <img src="https://github.com/gdegidy/coolRoom/blob/main/Images/BubbleMachineOn.png" height=200>
+</p>
 ~/coolRoom is a project lasting at least through four years of engineering school to create the ultimate vibe in a college dorm room. I noticed many students have RGB light strips poorly hung from their rooms and they were throwing parties without anybody noticing how bad it was (*laughing in c++*). The project is meant to make such an insane environment that any vibe someone feels after leaving will not even be comparable to the vibe of ~/coolRoom (<1%).
 
 # Vision
