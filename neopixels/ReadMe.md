@@ -34,3 +34,5 @@ gbgbgbgb...
 # Setup
 I'm using an ESP-01 to control the pixels through a Arduino IoT Cloud. I have 5v going to the pixels and a 5v-3.3v
 buck converter which powers the chip which sends data to the pixels.
+
+![Pixel Voltage going into both the pixels and a voltage converter. The converter powers the controller which sends data to the pixels.](https://github.com/gdegidy/coolRoom/blob/main/Images/GithubImages/BetterVoltageSetup.png)
