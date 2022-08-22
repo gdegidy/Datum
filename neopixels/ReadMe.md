@@ -1,7 +1,7 @@
 <h1 align="center">Neopixels</h1>
 <br>
 <p align="center">
-  <img src="https://github.com/gdegidy/coolRoom/blob/main/Images/TVHeadOn.png" height=500>
+  <img src="https://github.com/gdegidy/coolRoom/blob/main/Images/TVHeadOn.png" style="width: 85%">
   <br>
   Neopixels shown above TV along the ceiling
 </p>
