@@ -2,7 +2,7 @@
 I am working on a long term project which tries to create the ultimate vibe in a dorm room. This was one of the first projects and NO! I'm not happy about just using a strip of lights but I treat it as a "base coat of paint" for the room.
 This is just a basic strip of 200 neopixels that alternates colors. Here's what I mean:
 #### ex 1:
-"Set the color to red", "Set the color to green"
+"Set the color to red", "Set the color to green" \n 
 rgrgrgrg...
 
 #### ex 2:
@@ -32,5 +32,5 @@ gbgbgbgb...
 00000000...
 
 # Setup
-I'm using an ESP-01 to control the pixels through a cloud service that I am reconsidering. I have 5v going to the pixels and a 5v-3.3v
-buck converter which powers the chip which sends data to the pixels.
+I'm using an ESP-01 to control the pixels through a Arduino IoT Cloud. I have 5v going to the pixels and a 5v-3.3v
+buck converter which powers the chip which sends data to the pixels. I set it up so I can set the color and brightness from the cloud. The pixels have an animation of 5 off pixels jump one to the right once every second.
