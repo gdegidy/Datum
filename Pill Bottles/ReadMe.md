@@ -8,3 +8,18 @@ I drilled a hole in the center of each lid for the WS2811 neopixels to slide int
 <p align="center"><img src="https://github.com/gdegidy/coolRoom/blob/main/Images/GithubImages/BetterVoltageSetup.png" height="200">
 
 I slipped all of the electronics into the first pill bottle which doesn't have a light in it. It has a DC5V port coming out of the bottom for power.
+
+# Code Description
+The code first does all the initiation stuff for the neopixels and IoT. The Arduino IoT Cloud works by calling a request to get all values from the project and a function is called if there is a new value. To make the motion more fluid, I only update the cloud values every 2 seconds. I defined every every 10th pixel (0, 10, 20, 30, 40) to an array called offPixels. Every half second, the code adds 1 to each value in offPixels, turns those pixels off, and turns the previous (n-1) pixel back to the iot RGB value.
+```
+offPixels[5] = {0, 10, 20, 30, 40};
+if(t-ct >= 500){
+  for(int i = 0; i < 5; i++){
+    offPixels[i] += 1;
+    pixels.SetPixelColor(offPixels[i-1], pixels.Color(r, g, b));
+    pixels.setPixelColor(offPixels[i], pixels.Color(0,0,0));
+  }
+  ct = t;
+}
+```
+  
