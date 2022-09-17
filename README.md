@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <body>
+  <p align="center"><img src="https://github.com/gdegidy/coolRoom/blob/main/Images/IMG_1017%20(1).png" style="width: 100%"></p>
   <H1 align="center">~/coolRoom</H1>
   <p align="center">
     <img src="https://github.com/gdegidy/coolRoom/blob/main/Images/DarkLookingIn.png" style="height:auto; width: 30%;">
