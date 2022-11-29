@@ -1,4 +1,8 @@
-<H1>LoganScreen</H1>
+<H1 align="center">LoganScreen</H1>
+<p align="center"><img style="width: 20%" src="https://github.com/gdegidy/coolRoom/blob/main/loganScreen/images/IMG-1257.jpg">
+<img style="width: 20%" src="https://github.com/gdegidy/coolRoom/blob/main/loganScreen/images/IMG-1265.jpg">
+<img style="width: 20%" src="https://github.com/gdegidy/coolRoom/blob/main/loganScreen/images/IMG-1259.jpg">
+<img style="width: 20%" src="https://github.com/gdegidy/coolRoom/blob/main/loganScreen/images/IMG-1261.jpg"></p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;This project uses a display from a broken laptop and a raspberry pi running raspbian to display a dashboard using the service dakboard,
   which is commonly used for "magic mirror" displays.</p>
   <H3>The screen</H3>
