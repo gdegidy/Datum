@@ -1,4 +1,4 @@
-<H1 align="center">LoganScreen</H1>
+<H1 align="center">loganScreen</H1>
 <p align="center"><img style="width: 20%" src="https://github.com/gdegidy/coolRoom/blob/main/loganScreen/images/IMG-1257.jpg">
 <img style="width: 20%" src="https://github.com/gdegidy/coolRoom/blob/main/loganScreen/images/IMG-1265.jpg">
 <img style="width: 20%" src="https://github.com/gdegidy/coolRoom/blob/main/loganScreen/images/IMG-1259.jpg">
